@@ -1,0 +1,123 @@
+---
+title: "Mixture models on binary data"
+author: "Siva Kalyan"
+date: "24/03/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse, quietly = T)
+library(flexmix)
+```
+
+## Clustering using (multivariate) mixture models
+
+- Modeling a dataset as a sample from a sum of probability distributions
+- Typically done with Gaussian distributions:
+![Example of a multivariate Gaussian mixture distribution](https://www.researchgate.net/profile/Esben_Budtz-Jorgensen/publication/226422703/figure/fig10/AS:668282050854913@1536342265128/plotmixff-coldarkblue-orange-2-component-Gaussian-Mixture-Model-fit-of-Old_W640.jpg)
+
+- For discrete data, we typically use either Bernoulli distributions (for binary data) or Poisson distributions (for multinomial data).
+- Application: Clustering black-and-white images (for OCR, object recognition, etc.)
+
+## Loading and processing the MNIST data
+
+We use the training set from the MNIST database of handwritten digits, consisting of 60,000 grayscale images (28px by 28px). CSV version available from [https://pjreddie.com/media/files/mnist_train.csv].
+
+(The following steps are adapted from [https://www.r-bloggers.com/exploring-handwritten-digit-classification-a-tidy-analysis-of-the-mnist-dataset/].)
+
+```{r}
+mnist_raw <- read_csv("mnist_train.csv", col_names = F)
+
+head(mnist_raw)
+```
+Notes:
+- Each row represents one image.
+- Column X1 gives the correct classification of the image (i.e., which digit it is).
+- Pixel values are given from 0 to 255.
+- For simplicity, we take a sample of 10,000, and consider only digits from 0 to 4.
+
+Tidying up the data:
+
+```{r}
+pixels_gathered <- mnist_raw %>%
+  # filter(X1 %in% 0:4) %>% 
+  head(10000) %>%
+  rename(label = X1) %>%
+  mutate(instance = row_number()) %>%
+  gather(pixel, value, -label, -instance) %>%
+  tidyr::extract(pixel, "pixel", "(\\d+)", convert = TRUE) %>%
+  mutate(pixel = pixel - 2,
+         value = value > 255/2,
+         x = pixel %% 28,
+         y = 28 - pixel %/% 28)
+
+pixels_gathered
+```
+
+Plotting the first 12 images:
+
+```{r}
+pixels_gathered %>%
+  filter(instance <= 12) %>%
+  ggplot(aes(x, y, fill = value)) +
+  geom_tile() +
+  scale_fill_grey(start = 1, end = 0) +
+  facet_wrap(~ instance + label) +
+  theme_bw() +
+  coord_fixed()
+```
+
+## Applying a Bernoulli mixture model
+We want to sort the 10,000 images into 5 clusters, and see if the correct clusters emerge automatically.
+
+First we get the data into a matrix:
+
+```{r}
+pixel_matrix <- pixels_gathered %>% 
+  select(instance, pixel, value) %>% 
+  spread(pixel, value) %>% 
+  column_to_rownames("instance") %>% 
+  as.matrix()
+```
+
+Fitting a model with 5 components:
+
+```{r}
+model <- flexmix(pixel_matrix ~ 1, k = 10, model = FLXMCmvbinary())
+```
+
+Note: The `flexmix` package is normally used for mixtures of *regression models*. For mixtures of data, you need to explicitly specify that there are no independent variables.
+
+## Plotting the clusters
+
+```{r}
+model@components %>% 
+  purrr::map_depth(2, ~ .@parameters$center) %>% 
+  map_df(~ .[[1]]) %>% 
+  mutate(pixel = row_number(),
+         x = pixel %% 28,
+         y = 28 - pixel %/% 28) %>% 
+  gather("component", "value", -pixel, -x, -y) %>% 
+  ggplot(aes(x, y, fill = value)) +
+  geom_tile() +
+  scale_fill_gradient(low = "#00000000", high = "black") +
+  facet_wrap(~ component) +
+  theme_bw() +
+  coord_fixed()
+```
+
+Verifying the cluster memberships:
+```{r}
+true_classes <- pixels_gathered %>% 
+  distinct(instance, label) %>% 
+  arrange(instance) %>% 
+  .$label
+model_classes <- model@cluster
+
+table(true_classes, model_classes) %>% 
+  sweep(1, rowSums(.), `/`) %>% 
+  round(2)
+```
+
