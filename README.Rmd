@@ -15,6 +15,14 @@ A local chapter of R-Ladies Global, R-Ladies Canberra exists to promote gender d
 
 We are part of Global R-Ladies group. You can access our presentations, R scripts, and Projects on our Github account and follow us on twitter to stay up to date about R-Ladies news!
 
+# Event Notes
+
+## [Beyond Beamer: Modern and Dynamic Presentations with R Markdown](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/30_6_2020)
+
+Speaker: [Emi Tanaka](https://emitanaka.org)
+
+Tuesday, 30 June 2020
+
 
 
 
