@@ -7,7 +7,7 @@
 
 ### The presentation slide deck is available on Emi’s website: <http://emitanaka.org/slides/rladiesSSA2020/#1>.
 
-### Speaker Biography
+### Biography
 
 Emi Tanaka is an applied statistician whose primary interest is to
 develop impactful methods and tools that can be readily used by

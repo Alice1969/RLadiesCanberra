@@ -23,8 +23,7 @@ write functions that you use to perform common tasks. In the afternoon
 workshop, you will learn how put these together into an R package, which
 makes them easier to use and very easy to share.
 
-R Markdown (morning session, 9:30am to 12:30pm), presented by Nick
-Tierney
+#### R Markdown (morning session, 9:30am to 12:30pm), presented by Nick Tierney
 
 For a scientific report to be completely credible, it must be
 reproducible. The full computational environment used to derive the
@@ -40,8 +39,7 @@ Markdown document to PDF, HTML, and Microsoft Word - Use keyboard
 shortcuts to improve workflow - Cite research articles and generate a
 bibliography
 
-Building R packages (afternoon session, 1:30pm to 5pm), presented by
-Damjan Vukcevic
+#### Building R packages (afternoon session, 1:30pm to 5pm), presented by Damjan Vukcevic
 
 You have developed a new statistical method. Now it is time to share it
 with the world. The methods that actually get used in practice are those
