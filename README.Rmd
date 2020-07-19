@@ -7,6 +7,8 @@ output: rmarkdown::github_document
 
 # R-Ladies Canberra (Canberra, Australia)
 
+To learn about upcoming events, join the [Meetup](https://www.meetup.com/en-AU/rladies-canberra/) group and follow us on [Twitter](https://twitter.com/rladiescanberra?lang=en)!
+
 <img src='logo.png' align="center" />
 
 R-Ladies Canberra welcomes members of all R proficiency levels, whether you're a new or aspiring R user, or an experienced R programmer interested in mentoring, networking & expert upskilling. Our community is designed to develop our members' R skills & knowledge through social, collaborative learning & sharing. Supporting minority identity access to STEM skills & careers, the Free Software Movement, and contributing to the global R community!
@@ -22,6 +24,12 @@ We are part of Global R-Ladies group. You can access our presentations, R script
 Speaker: [Emi Tanaka](https://emitanaka.org)
 
 Tuesday, 30 June 2020
+
+## [March 2020 Lightning Talks](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/26_3_2020)
+
+Speakers: Erika Duan, Siva Kalyan, Terry Neeman, and Alice Richardson
+
+Thursday, 26 March 2020
 
 
 

@@ -3,6 +3,10 @@
 
 # R-Ladies Canberra (Canberra, Australia)
 
+To learn about upcoming events, join the
+[Meetup](https://www.meetup.com/en-AU/rladies-canberra/) group and
+follow us on [Twitter](https://twitter.com/rladiescanberra?lang=en)\!
+
 <img src='logo.png' align="center" />
 
 R-Ladies Canberra welcomes members of all R proficiency levels, whether
@@ -33,3 +37,9 @@ to stay up to date about R-Ladies news\!
 Speaker: [Emi Tanaka](https://emitanaka.org)
 
 Tuesday, 30 June 2020
+
+## [March 2020 Lightning Talks](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/26_3_2020)
+
+Speakers: Erika Duan, Siva Kalyan, Terry Neeman, and Alice Richardson
+
+Thursday, 26 March 2020
