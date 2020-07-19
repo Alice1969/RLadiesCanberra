@@ -7,7 +7,7 @@ R-Ladies members Erika Duan, Siva Kalyan, Terry Neeman, and Alice
 Richardson gave lightning talks on [volcano
 plots](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/26_3_2020/volcanoPlots.pdf),
 [mixture models on binary
-data](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/26_3_2020/mixModelsBinaryData.pdf),
+data](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/26_3_2020/mixModelsBinaryData.Rmd),
 [high-dimensional
 data](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/26_3_2020/highDimensionalData.pdf),
 and [Florence

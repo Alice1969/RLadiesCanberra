@@ -7,7 +7,7 @@ output: rmarkdown::github_document
 
 # March 2020 Lightning Talks
 
-R-Ladies members Erika Duan, Siva Kalyan, Terry Neeman, and Alice Richardson gave lightning talks on [volcano plots](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/26_3_2020/volcanoPlots.pdf), [mixture models on binary data](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/26_3_2020/mixModelsBinaryData.pdf), [high-dimensional data](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/26_3_2020/highDimensionalData.pdf), and [Florence Nightingale](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/26_3_2020/FloRenceNightingale.pdf), respectively.
+R-Ladies members Erika Duan, Siva Kalyan, Terry Neeman, and Alice Richardson gave lightning talks on [volcano plots](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/26_3_2020/volcanoPlots.pdf), [mixture models on binary data](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/26_3_2020/mixModelsBinaryData.Rmd), [high-dimensional data](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/26_3_2020/highDimensionalData.pdf), and [Florence Nightingale](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/26_3_2020/FloRenceNightingale.pdf), respectively.
 
 Their presentation materials are included above.
 
