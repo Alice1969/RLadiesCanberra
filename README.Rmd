@@ -41,6 +41,51 @@ Speaker: [Dr. Alison Hill](https://alison.rbind.io), RStudio
 
 Thursday, 3 October 2019
 
+## [Workshop for Design a Personal Website with R](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/3_10_2019_2)
+
+Speaker: [Dr. Alison Hill](https://alison.rbind.io), RStudio
+
+Thursday, 3 October 2019
+
+## [Visualising High-Dimensional Data Tutorial](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/18_9_2019)
+
+Speaker: [Professor Di Cook](http://dicook.org), Monash University
+
+Wednesday, 18 September 2019
+
+## [Statistics on Street Corners](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/18_9_2019_2)
+
+Speaker: [Professor Di Cook](http://dicook.org), Monash University
+
+Wednesday, 18 September 2019
+
+## [R Skills Workshop: R Markdown and Building Packages](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/3_7_2019)
+
+Speaker: [Dr. Nick Tierney](https://www.njtierney.com), Monash University, and [Dr. Damjan Vukcevic](http://damjan.vukcevic.net), University of Melbourne
+
+Wednesday, 3 July 2019
+
+## [Geostatistics in the Fast Lane Using R-TensorFlow and GPUs](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/28_5_2019)
+
+Speaker: [Dr. Andrew Zammit Mangion](https://andrewzm.wordpress.com), National Institute for Applied Statistics Research Australia (NIASRA)
+
+Wednesday, 28 May 2019
+
+## [Tidying and Plotting in R](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/6_5_2019)
+
+Speaker: [Hedvig Skirgård](https://sites.google.com/site/hedvigskirgard/), Australian National University
+
+Wednesday, 6 May 2019
+
+## [Bayesian Modelling with R](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/25_3_2019)
+
+Speaker: Dr. Jiali Wang, CSIRO Data61
+
+Monday, 25 March 2019
+
+## [R-Ladies Canberra Launch](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/26_2_2019)
+
+Tuesday, 26 February 2019
 
 
 

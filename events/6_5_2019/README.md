@@ -1,0 +1,30 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# Tidying and Plotting in R
+
+## Hedvig Skirgård
+
+Hedvig has kindly shared her slides from this event:
+<https://drive.google.com/drive/folders/11BE_fQv_ov8cCflxCcqa8tC3NY7u1UKH>.
+
+### Event Description
+
+R is primarily known as a tool for statistics and data analysis, but it
+is also great for “simpler” data wrangling and plotting purposes. As R
+is becoming more accessible and useful in this regards, it is becoming a
+more viable alternative to Microsoft Excel and other spreadsheet-based
+applications for wrangling, analysing and visualising data. This has
+resulted in more R-users who are not from the “hardcore” STEM
+disciplines - like linguists, psychologists and researchers in political
+science. In this talk, Hedvig will introduce the concept of tidy data,
+the wonders of the tidyverse and ggplot for beginner users of R and
+experienced users who mainly use non-tidyverse packages.
+
+### Biography
+
+Hedvig (<https://sites.google.com/site/hedvigskirgard/>) is a linguist
+working on Pacific languages at ANU. She focuses on grammatical
+structure and diversification, how one language becomes many. This is
+her final year of her PhD, and on the side she helps other linguists and
+humanities students with R.

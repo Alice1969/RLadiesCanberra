@@ -1,0 +1,25 @@
+
+---
+output: rmarkdown::github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# Statistics on Street Corners
+## Professor Di Cook
+
+### Event Description
+
+Statistics on Street Corners: Bridging the gap between inferential and exploratory analysis using crowd-sourcing with data visualisation
+
+Plots of data often provoke the response "is what we see really there". In this talk we will discuss ways to give visual statistical methods an inferential framework. Statistical significance of "graphical discoveries" is measured by having the human viewer compare the plot of the real dataset with collections of plots of null datasets: plots take on the role of test statistics, and human cognition the role of statistical tests, in a process modeled after the "lineup", popular from criminal legal procedures. This is a simple but rigorous protocol that provides valid inference, yielding p-values for graphical findings. The procedure can also be used to objectively decide the best choice of graphical display of the same data, for communicating information.
+
+### Biography
+
+Dianne Cook is Professor of Business Analytics at Monash University in Melbourne, Australia. She is a world leader in data visualisation, especially the visualisation of high-dimensional data using tours with low dimensional projections, and projection pursuit. She is currently focussing on bridging the gap between exploratory graphics an statistical inference. Di is a Fellow of the American Statistical Association, was recently the editor of the Journal of Computational and Graphical Statistics, and has been elected as an Ordinary Member of the R Foundation. Several of her students have won the prestigious American Statistical Association John Chambers Software Award, including Hadley Wickham, Yihui Xie, Carson Sievert, and most recently, Monash student Earo Wang.
+
+
+
+
+
+
