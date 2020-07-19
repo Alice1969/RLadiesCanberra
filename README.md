@@ -34,7 +34,7 @@ to stay up to date about R-Ladies news\!
 
 ## [Beyond Beamer: Modern and Dynamic Presentations with R Markdown](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/30_6_2020)
 
-Speaker: [Dr. Emi Tanaka](https://emitanaka.org)
+Speaker: [Dr. Emi Tanaka](https://emitanaka.org), Monash University
 
 Tuesday, 30 June 2020
 
@@ -50,6 +50,6 @@ Thursday, 21 November 2019
 
 ## [Literate Projecting](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/3_10_2019)
 
-Speaker: [Dr. Alison Hill](https://alison.rbind.io)
+Speaker: [Dr. Alison Hill](https://alison.rbind.io), RStudio
 
 Thursday, 3 October 2019
