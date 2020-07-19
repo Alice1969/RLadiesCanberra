@@ -21,15 +21,25 @@ We are part of Global R-Ladies group. You can access our presentations, R script
 
 ## [Beyond Beamer: Modern and Dynamic Presentations with R Markdown](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/30_6_2020)
 
-Speaker: [Emi Tanaka](https://emitanaka.org)
+Speaker: [Dr. Emi Tanaka](https://emitanaka.org)
 
 Tuesday, 30 June 2020
 
 ## [March 2020 Lightning Talks](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/26_3_2020)
 
-Speakers: Erika Duan, Siva Kalyan, Terry Neeman, and Alice Richardson
+Speakers: Members of R-Ladies
 
 Thursday, 26 March 2020
+
+## [Keep Calm and Code!](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/21_11_2019)
+
+Thursday, 21 November 2019
+
+## [Literate Projecting](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/3_10_2019)
+
+Speaker: [Dr. Alison Hill](https://alison.rbind.io)
+
+Thursday, 3 October 2019
 
 
 

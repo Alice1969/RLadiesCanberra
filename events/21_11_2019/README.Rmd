@@ -1,0 +1,20 @@
+
+---
+output: rmarkdown::github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# Keep Calm and Code!
+
+### Event Description
+
+Following on from the highly successful [Workshop for Design a Personal Website](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/3_10_2019) run by Dr. Alison Hill of RStudio, we're organising a get-together for those who would like to continue working on their website, those who would like to get started on their website, and those who would simply like to keep calm and do a bit of R coding! All in a supportive atmosphere with the workshop webcast and some workshop attendees to help.
+
+Bring your laptops and power cords and enjoy the hospitality at the Nous offices on the 9th floor of 121 Marcus Clarke Street, Civic.
+
+
+
+
+
+
