@@ -21,5 +21,5 @@ Their presentation materials are included above.
 You’re invited to the first RLadies Canberra meeting for 2020\! We will
 have up to four short talks to inspire you, showcasing aspects of R
 ranging from high dimensional biological data to volcano plots and
-general linear models. We are moving this meeting online due to cocerns
+general linear models. We are moving this meeting online due to concerns
 over COVID19 infection, so please join us via Zoom.
