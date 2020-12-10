@@ -3,7 +3,7 @@
 
 # Code-Along Part 1
 
-## Dr. Erika Duan, Dept of Education, Skills & Employment
+## Dr. Erika Duan
 
 Links to the code-along tutorials used:
 <https://rstudio.cloud/learn/primers/3.2> and
