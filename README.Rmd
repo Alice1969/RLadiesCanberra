@@ -19,6 +19,12 @@ We are part of Global R-Ladies group. You can access our presentations, R script
 
 # Event Notes
 
+## [Code-Along Part 1](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/3_12_2020)
+
+Speaker: Dr. Erika Duan, Dept of Education, Skills & Employment
+
+Thursday, 3 December 2020
+
 ## [Beyond Beamer: Modern and Dynamic Presentations with R Markdown](https://github.com/Alice1969/RLadiesCanberra/tree/master/events/30_6_2020)
 
 Speaker: [Dr. Emi Tanaka](https://emitanaka.org), Monash University
